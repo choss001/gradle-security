@@ -1,4 +1,3 @@
-
 #spring.datasource.url=jdbc:mysql://apipl-db.clc9wkbwagzw.ap-northeast-2.rds.amazonaws.com:3306/oapdb
 #spring.datasource.username=admin
 #spring.datasource.password=dbfrhrfh1rk!
@@ -20,11 +19,14 @@ spring:
   password: dbfrhrfh1rk!
 
  redis:
-  host: 127.0.0.1
-  password: dbfrhrfh1rk!
-  port: 6379
-  timeout: 0
- 
+   port: 6379
+   host: 127.0.0.1
+   password: dbfrhrfh1rk!
+   lettuce:
+     pool:
+       max-idle: 10
+       min-idle: 2 
+       max-active: 10
  
  security.user:
    name: user
