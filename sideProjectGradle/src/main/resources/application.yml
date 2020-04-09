@@ -31,3 +31,12 @@ spring:
  security.user:
    name: user
    password: password
+# thymeleaf:
+#  prefix: classpath:/templates/
+#  enabled: true
+#  suffix: .html
+#  check-template: true
+#  check-template-location: true
+#  mode: HTML
+#  cache: false
+ 
