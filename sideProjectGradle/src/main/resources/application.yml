@@ -28,9 +28,9 @@ spring:
        min-idle: 2 
        max-active: 10
  
- security.user:
-   name: user
-   password: password
+# security.user:
+#   name: user
+#   password: password
 # thymeleaf:
 #  prefix: classpath:/templates/
 #  enabled: true
