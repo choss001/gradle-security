@@ -16,7 +16,7 @@ reids 비밀번호 적용하는 법
 config get requirepass
 config set requirepass [비밀번호]
 비밀번호 치는법
-auth [비밀번호]
+auth [비밀번호] 
 
 localhost:8080/HelloRedis
 접속하게되면 도커에 key가 새롭게 등록되는걸로 연동 확인 가능하빈다
